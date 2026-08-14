@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chameleons vs Rhinos | Alexander Blach</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <a href="../index.html" class="logo">AB.</a>
+
+            <div class="nav-links">
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#skills">Skills</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- PROJECT HERO -->
+    <header class="project-page-hero">
+
+        <div class="project-page-header">
+
+            <p class="eyebrow">GODOT / MULTIPLAYER</p>
+
+            <h1>Chameleons<br>vs Rhinos</h1>
+
+            <p class="project-page-intro">
+                An asymmetric multiplayer game where a team of
+                chameleon thieves attempts to steal artifacts from
+                a museum while rhino guards try to stop them.
+            </p>
+
+        </div>
+
+        <div class="project-meta">
+
+            <div>
+                <span>ENGINE</span>
+                <p>Godot</p>
+            </div>
+
+            <div>
+                <span>LANGUAGE</span>
+                <p>GDScript</p>
+            </div>
+
+            <div>
+                <span>TYPE</span>
+                <p>Team Project</p>
+            </div>
+
+            <div>
+                <span>ROLE</span>
+                <p>Gameplay Developer</p>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO IMAGE -->
+    <section class="project-page-media">
+
+        <div class="large-placeholder">
+            Gameplay Image / Video
+        </div>
+
+    </section>
+
+
+    <!-- OVERVIEW -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>01</p>
+            <span>OVERVIEW</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>The Project</h2>
+
+            <p class="large-paragraph">
+                Chameleons vs Rhinos is a fast-paced asymmetric
+                multiplayer game designed around two very different
+                player roles.
+            </p>
+
+            <p>
+                Chameleons play as thieves attempting to infiltrate
+                a museum, steal valuable artifacts and escape.
+                Rhinos act as guards and must patrol the museum,
+                chase thieves and prevent the robbery.
+            </p>
+
+            <p>
+                The game was designed to be easy to understand,
+                fast to play and readable for a younger target audience.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- MY ROLE -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>02</p>
+            <span>MY ROLE</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>What I Worked On</h2>
+
+            <p class="large-paragraph">
+                I worked primarily on gameplay programming,
+                multiplayer systems, UI and player-facing systems.
+            </p>
+
+            <div class="role-grid">
+
+                <div class="role-card">
+                    <h3>Multiplayer</h3>
+                    <p>
+                        Implemented and worked with WebRTC,
+                        RPC calls, multiplayer spawning and
+                        synchronization between players.
+                    </p>
+                </div>
+
+                <div class="role-card">
+                    <h3>Gameplay</h3>
+                    <p>
+                        Worked on player interactions, team-specific
+                        mechanics, artifact handling and game-state logic.
+                    </p>
+                </div>
+
+                <div class="role-card">
+                    <h3>UI</h3>
+                    <p>
+                        Developed the lobby, menus, tutorial screens,
+                        versus screen and other player feedback systems.
+                    </p>
+                </div>
+
+                <div class="role-card">
+                    <h3>Presentation</h3>
+                    <p>
+                        Worked on camera transitions, intro sequences,
+                        skin previews and visual polish.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECHNICAL SECTION -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>03</p>
+            <span>TECHNICAL</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>Multiplayer Systems</h2>
+
+            <p class="large-paragraph">
+                Multiplayer was one of the main technical challenges
+                of the project.
+            </p>
+
+            <p>
+                The game uses Godot's multiplayer API together with
+                WebRTC. Gameplay actions are communicated through RPCs,
+                while important game-state decisions are controlled by
+                the host.
+            </p>
+
+            <div class="technical-diagram">
+
+                <div>Player Client</div>
+                <span>→</span>
+                <div>WebRTC</div>
+                <span>→</span>
+                <div>Host</div>
+                <span>→</span>
+                <div>Game State</div>
+
+            </div>
+
+            <p>
+                Working with multiplayer taught me to think about
+                authority, ownership and synchronization rather than
+                treating gameplay as purely local logic.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- GAMEPLAY SYSTEMS -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>04</p>
+            <span>GAMEPLAY</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>Asymmetric Roles</h2>
+
+            <div class="two-column-system">
+
+                <div>
+
+                    <h3>Chameleons</h3>
+
+                    <p>
+                        The chameleons are quick thieves built around
+                        stealth and movement.
+                    </p>
+
+                    <ul>
+                        <li>Third-person perspective</li>
+                        <li>Camouflage while stationary</li>
+                        <li>Artifact stealing</li>
+                        <li>Escape-focused gameplay</li>
+                    </ul>
+
+                </div>
+
+
+                <div>
+
+                    <h3>Rhinos</h3>
+
+                    <p>
+                        The rhinos are guards designed around control,
+                        chasing and preventing the robbery.
+                    </p>
+
+                    <ul>
+                        <li>First-person perspective</li>
+                        <li>Taser mechanic</li>
+                        <li>Capture and jail system</li>
+                        <li>Defensive gameplay</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- IMAGES -->
+    <section class="project-image-grid">
+
+        <div class="medium-placeholder">
+            Gameplay Screenshot
+        </div>
+
+        <div class="medium-placeholder">
+            Multiplayer Screenshot
+        </div>
+
+    </section>
+
+
+    <!-- PLAYTESTING -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>05</p>
+            <span>ITERATION</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>Playtesting & Iteration</h2>
+
+            <p class="large-paragraph">
+                Playtesting was used to identify where players became
+                confused and where gameplay needed clearer feedback.
+            </p>
+
+            <p>
+                Because the game was designed for players aged 9–12,
+                readability was especially important.
+            </p>
+
+            <p>
+                We focused on reducing unnecessary complexity,
+                improving tutorial communication and making interactions
+                easier to recognize without requiring players to
+                remember large amounts of information.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHAT I LEARNED -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>06</p>
+            <span>REFLECTION</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>What I Learned</h2>
+
+            <p class="large-paragraph">
+                The project gave me practical experience building
+                systems that needed to work for multiple players
+                rather than only one local player.
+            </p>
+
+            <p>
+                I became more comfortable working with RPCs,
+                multiplayer authority, player spawning and synchronization.
+            </p>
+
+            <p>
+                It also reinforced how important player feedback,
+                readability and iteration are when building a game
+                for a specific audience.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- NEXT PROJECT -->
+    <section class="next-project">
+
+        <p class="eyebrow">NEXT PROJECT</p>
+
+        <a href="between-frequencies.html">
+            Between Frequencies →
+        </a>
+
+    </section>
+
+
+    <footer>
+
+        <p>© 2026 Alexander Blach</p>
+
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
