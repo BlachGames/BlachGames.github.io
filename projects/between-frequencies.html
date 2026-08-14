@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Between Frequencies | Alexander Blach</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <a href="../index.html" class="logo">AB.</a>
+
+            <div class="nav-links">
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#skills">Skills</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- PROJECT HERO -->
+    <header class="project-page-hero">
+
+        <div class="project-page-header">
+
+            <p class="eyebrow">UNITY / SURVIVAL HORROR</p>
+
+            <h1>Between<br>Frequencies</h1>
+
+            <p class="project-page-intro">
+                A first-person survival horror game set in Antarctica,
+                where the player navigates an abandoned research
+                environment using radio signals rather than traditional
+                waypoints.
+            </p>
+
+        </div>
+
+
+        <div class="project-meta">
+
+            <div>
+                <span>ENGINE</span>
+                <p>Unity</p>
+            </div>
+
+            <div>
+                <span>LANGUAGE</span>
+                <p>C#</p>
+            </div>
+
+            <div>
+                <span>TYPE</span>
+                <p>Game Project</p>
+            </div>
+
+            <div>
+                <span>FOCUS</span>
+                <p>Gameplay Systems</p>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO IMAGE -->
+    <section class="project-page-media">
+
+        <div class="large-placeholder">
+            Gameplay Image / Video
+        </div>
+
+    </section>
+
+
+    <!-- OVERVIEW -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>01</p>
+            <span>OVERVIEW</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>The Project</h2>
+
+            <p class="large-paragraph">
+                Between Frequencies is a survival and exploration
+                game built around isolation, navigation and uncertainty.
+            </p>
+
+            <p>
+                The player takes the role of a seismologist arriving
+                in Antarctica in 1976 to investigate unexplained
+                seismic activity.
+            </p>
+
+            <p>
+                Research bases have been abandoned, communication is
+                unreliable and something appears to be moving through
+                the storm.
+            </p>
+
+            <p>
+                Instead of relying on traditional objective markers,
+                the game uses radio frequencies, audio and environmental
+                clues to guide the player.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- MY ROLE -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>02</p>
+            <span>MY WORK</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>What I Worked On</h2>
+
+            <p class="large-paragraph">
+                My focus was creating gameplay systems that supported
+                navigation, atmosphere and player feedback.
+            </p>
+
+
+            <div class="role-grid">
+
+                <div class="role-card">
+                    <h3>Radio Navigation</h3>
+
+                    <p>
+                        Developed a navigation mechanic where signal
+                        strength changes based on the player's direction
+                        and distance from an objective.
+                    </p>
+                </div>
+
+
+                <div class="role-card">
+                    <h3>Gameplay Systems</h3>
+
+                    <p>
+                        Worked on player interaction, exploration,
+                        puzzles and environmental gameplay systems.
+                    </p>
+                </div>
+
+
+                <div class="role-card">
+                    <h3>Player Feedback</h3>
+
+                    <p>
+                        Used audio, UI, environmental effects and
+                        visual feedback to communicate danger and
+                        player progress.
+                    </p>
+                </div>
+
+
+                <div class="role-card">
+                    <h3>Atmosphere</h3>
+
+                    <p>
+                        Worked with weather effects, sound,
+                        post-processing and environmental presentation
+                        to support the horror experience.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- RADIO SYSTEM -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>03</p>
+            <span>TECHNICAL</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>Radio Navigation</h2>
+
+            <p class="large-paragraph">
+                One of the main mechanics replaces a traditional
+                waypoint with a radio signal the player must interpret.
+            </p>
+
+            <p>
+                Signal quality is calculated using several factors,
+                including how close the player is to the target and
+                whether they are facing in the correct direction.
+            </p>
+
+
+            <div class="technical-diagram">
+
+                <div>Player Position</div>
+                <span>+</span>
+                <div>Direction</div>
+                <span>+</span>
+                <div>Distance</div>
+                <span>→</span>
+                <div>Radio Signal</div>
+
+            </div>
+
+
+            <p>
+                Two audio sources are blended together to create
+                transitions between clear radio transmission and static.
+                Additional filtering helps communicate whether the player
+                is moving closer to or farther from the signal.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- PLAYER EXPERIENCE -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>04</p>
+            <span>DESIGN</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>Navigation Without Waypoints</h2>
+
+            <p class="large-paragraph">
+                The goal was to make navigation itself part of the
+                gameplay rather than simply telling the player where
+                to go.
+            </p>
+
+            <p>
+                The radio provides information, but the player still
+                needs to interpret that information and understand
+                their surroundings.
+            </p>
+
+            <p>
+                This allowed exploration and uncertainty to remain
+                important while still giving the player enough
+                information to make progress.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- IMAGES -->
+    <section class="project-image-grid">
+
+        <div class="medium-placeholder">
+            Radio Gameplay Screenshot
+        </div>
+
+        <div class="medium-placeholder">
+            Antarctica Environment Screenshot
+        </div>
+
+    </section>
+
+
+    <!-- PLAYTESTING -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>05</p>
+            <span>ITERATION</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>Playtesting & Feedback</h2>
+
+            <p class="large-paragraph">
+                Playtesting showed where atmosphere was supporting
+                the experience and where important gameplay information
+                was becoming too difficult to understand.
+            </p>
+
+            <p>
+                Some mechanics initially relied too heavily on subtle
+                environmental cues.
+            </p>
+
+            <p>
+                I worked on making objectives and danger states clearer
+                through stronger audio cues, onboarding and visual
+                feedback without removing the feeling of uncertainty.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- REFLECTION -->
+    <section class="project-detail-section">
+
+        <div class="project-detail-label">
+            <p>06</p>
+            <span>REFLECTION</span>
+        </div>
+
+        <div class="project-detail-content">
+
+            <h2>What I Learned</h2>
+
+            <p class="large-paragraph">
+                Between Frequencies taught me how closely technical
+                systems and player experience are connected.
+            </p>
+
+            <p>
+                A navigation mechanic can work correctly from a
+                programming perspective while still being difficult
+                for players to understand.
+            </p>
+
+            <p>
+                Iterating on the radio system helped me think more
+                carefully about readability, feedback and how much
+                information a mechanic should communicate.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- NEXT PROJECT -->
+    <section class="next-project">
+
+        <p class="eyebrow">NEXT PROJECT</p>
+
+        <a href="chronoblade.html">
+            ChronoBlade →
+        </a>
+
+    </section>
+
+
+    <footer>
+
+        <p>© 2026 Alexander Blach</p>
+
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
