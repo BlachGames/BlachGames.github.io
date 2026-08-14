@@ -1,2 +1,2 @@
-# AlexBlach.github.io
+# BlachGames.github.io
 Alexander Blach Portfolio
