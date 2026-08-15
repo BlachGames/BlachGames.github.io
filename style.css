@@ -853,5 +853,21 @@ footer {
     .large-placeholder {
         height: 350px;
     }
+.project-actions {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    flex-wrap: wrap;
+   }
 
+.play-link {
+    color: #888;
+    font-size: 0.9rem;
+    transition: 0.2s;
+   }
+
+.play-link:hover {
+    color: white;
+    transform: translateX(3px);
+   }
 }
