@@ -408,8 +408,16 @@
         if (!video) return;
 
         video.currentTime = 0;
-        video.play();
+
+        const promise = video.play();
+
+        if (promise !== undefined) {
+            promise.catch(error => {
+                console.log("Video could not play:", error);
+            });
+        }
     }
+
 
     function stopPreview(container) {
         const video = container.querySelector("video");
