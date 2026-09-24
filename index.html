@@ -401,7 +401,25 @@
         </div>
 
     </footer>
+<script>
+    function startPreview(container) {
+        const video = container.querySelector("video");
 
+        if (!video) return;
+
+        video.currentTime = 0;
+        video.play();
+    }
+
+    function stopPreview(container) {
+        const video = container.querySelector("video");
+
+        if (!video) return;
+
+        video.pause();
+        video.currentTime = 0;
+    }
+</script>
 </body>
 
 </html>
