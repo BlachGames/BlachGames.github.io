@@ -929,3 +929,7 @@ footer {
 .hover-video:hover video {
     opacity: 1;
 }
+.project-play-button {
+    display: inline-block;
+    margin-top: 28px;
+}
