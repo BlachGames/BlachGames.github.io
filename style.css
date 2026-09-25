@@ -347,11 +347,15 @@ a {
     letter-spacing: -1px;
     max-width: 520px;
 }
+
+.about-text {
+    max-width: 560px;
 }
 
 .about-text p {
     color: #aaa;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
+    line-height: 1.7;
 }
 
 
