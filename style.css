@@ -932,3 +932,14 @@ footer {
     display: inline-block;
     margin-top: 28px;
 }
+.project-image-link {
+    display: block;
+    cursor: pointer;
+}
+.project-image-link .project-image {
+    transition: transform 0.25s ease;
+}
+
+.project-image-link:hover .project-image {
+    transform: scale(1.01);
+}
