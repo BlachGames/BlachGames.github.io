@@ -1020,3 +1020,47 @@ footer {
     object-fit: cover;
     object-position: center;
 }
+
+
+/* Two equal-size gameplay videos on the Chamillion $ Heist project page. */
+.dual-gameplay-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    align-items: start;
+}
+
+.gameplay-perspective {
+    min-width: 0;
+    margin: 0;
+}
+
+.gameplay-perspective .project-feature-video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+.gameplay-perspective figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 14px 2px 0;
+}
+
+.gameplay-perspective figcaption strong {
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+.gameplay-perspective figcaption span {
+    color: #aaa;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 800px) {
+    .dual-gameplay-grid {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+}
